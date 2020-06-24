@@ -31,7 +31,7 @@ def KNN_Classifier(X_train_features, X_test_features, y_train, y_test, n):
     return y_pred
 
 def RF_Classifier(X_train_features, X_test_features, y_train, y_test, n):
-    classifier = RandomForestClassifier(n_estimators = n, criterion = 'entropy', random_state = 0)
+    classifier = RandomForestClassifier(n_estimators = n, random_state = 0)
     classifier.fit(X_train_features, y_train)
     
     y_pred = classifier.predict(X_test_features)
