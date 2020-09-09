@@ -279,7 +279,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 #BABC
 
 #KNN
-columns_number = X.shape[1]
+"""columns_number = X.shape[1]
 number_employed_bees = 12
 number_onlooker_bees = 12
 max_iterations_number = 70
@@ -302,7 +302,7 @@ RESULT = iterations(max_iterations_number, limit_array, limit, employed_matrix, 
                 accuracies, number_onlooker_bees, X_train, X_test, y_train, y_test, best, best_bee)
 if (RESULT[0] > BEST):
     BEST = RESULT[0]
-    BEST_BEE = RESULT[1]
+    BEST_BEE = RESULT[1]"""
  
     
 #NB
@@ -333,7 +333,7 @@ if (RESULT[0] > BEST):
 
     
 #RF
-"""columns_number = X.shape[1]
+columns_number = X.shape[1]
 number_employed_bees = 12
 number_onlooker_bees = 12
 max_iterations_number = 50
@@ -356,4 +356,4 @@ RESULT = iterations(max_iterations_number, limit_array, limit, employed_matrix, 
                 accuracies, number_onlooker_bees, X_train, X_test, y_train, y_test, best, best_bee)
 if (RESULT[0] > BEST):
     BEST = RESULT[0]
-    BEST_BEE = RESULT[1]"""
+    BEST_BEE = RESULT[1]

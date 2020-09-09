@@ -295,9 +295,10 @@ accuracies = np.zeros(number_employed_bees)
 best = 0
 best_bee = np.zeros(columns_number)
 
-#KNN    
-init(number_employed_bees, columns_number, employed_matrix)
     
+init(number_employed_bees, columns_number, employed_matrix)
+
+#KNN    
 init_accuracies_and_best(number_employed_bees, accuracies, X_train, X_test, y_train, y_test, 'KNN', 5, best, best_bee, 
                              employed_matrix, columns_number)
     

@@ -300,7 +300,6 @@ RESULT = iterations(max_iterations_number, limit_array, limit, employed_matrix, 
 if (RESULT[0] > BEST):
     BEST = RESULT[0]
     BEST_BEE = RESULT[1]
- 
     
 #NB
 """columns_number = X.shape[1]
@@ -353,5 +352,7 @@ RESULT = iterations(max_iterations_number, limit_array, limit, employed_matrix, 
 if (RESULT[0] > BEST):
     BEST = RESULT[0]
     BEST_BEE = RESULT[1]"""
+    
+ 
     
     
